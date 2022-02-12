@@ -1,0 +1,42 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+body {background-color: #0c1117;
+  font-family: Roboto, sans-serif;
+  font-size: 18px; line-height: 1.6;
+  color: #ffffff;}
+
+h1 {font-size: 3em; font-weight: 700;}
+
+h2 {font-size: 2.75em; font-weight: 700;}
+
+h3 {font-size: 2.25em; font-weight: 400;}
+
+h4 {font-size: 1.75em;font-weight: 400;}
+
+.button.contact {background-color: #0c1117;
+  border: none; color: white; padding: 20px 36px;
+  text-align: center; text-decoration: none;
+  display: inline-block; font-size: 18px;}
+
+.button.contact:hover {background-color: #25292d;
+  color: #ffffff;}
+
+.button.project {background-color: #0c1117;
+  border: none; color: white; padding: 20px 36px;
+  text-align: center; text-decoration: none;
+  display: inline-block; font-size: 18px;}
+
+.button.project:hover {background-color: #25292d; color: #ffffff;}
+
+.button.resume {background-color: #0c1117;
+  border: none; color: white; padding: 20px 36px;
+  text-align: center; text-decoration: none;
+  display: inline-block; font-size: 18px;}
+
+.button.resume:hover {
+  background-color: #25292d; color: #ffffff;}
