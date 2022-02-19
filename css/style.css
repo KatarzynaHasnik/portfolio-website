@@ -119,3 +119,33 @@ a:focus {color: #f4f4f4;
 
   svg {max-width: 32px;
   height: auto;}
+
+  @media (min-width: 640px) {
+  body {
+  font-size: 20px;
+}
+  header {
+  text-align: unset;
+}
+nav {
+   width: auto;
+   float: right;
+   margin-top: 4px;
+ }
+ .logo {
+   margin-top: 14px;
+ }
+ .col-50 {
+   width: 48%;
+ }
+ .row
+ {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .container {
+   margin: 0 auto;
+ }
+}
