@@ -1,0 +1,21 @@
+function startButtonClicked() {
+  // Use the provided textOutput method to output any text to the HTML page
+  // e.g.: textOutput("Hello World!")
+  // Use it output the numbers 100-200
+  for (i = 0; i <= 100; i++) {
+    textOutput (i +100);
+  }
+}
+
+// ---------------------------------------------------------
+// DONT CHANGE ANYTHING BELOW THIS LINE!
+// ---------------------------------------------------------
+
+function textOutput(text) {
+  var output = document.getElementById("output");
+  output.innerHTML = output.innerHTML += "<br>" + text;
+}
+
+document.getElementById("start").onclick = function() {
+  startButtonClicked();
+}

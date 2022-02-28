@@ -1,0 +1,23 @@
+
+function validate(userInput) {
+	console.log(userInput);
+  // userInput is the message that is entered in the text field
+  // use window.alert("Message") to output errors
+  // return true when no error occurs
+  // return false if an error occurs
+
+  //Check that the field userInput is filled
+	if (!userInput) {
+		window.alert ("you are not allowed to leave it empty");
+		return false;
+	} else if (userInput.length >20) {
+		window.alert ("you are not allowed to use more 20 characters");
+		return false;
+	} else if (userInput==="Bobby") {
+		window.alert ("you are not able to use words as Bobby");
+		return false;
+	} else
+		{ return true;
+		}
+
+}

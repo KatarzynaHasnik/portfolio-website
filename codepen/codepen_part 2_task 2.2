@@ -1,0 +1,24 @@
+function checkNumber(value) {
+  // Value is a number between 0 and 99
+  // Return true if the number should be displayed, else return false
+  if (value===0 || value > 90 || (value >= 10 && <= 20)){
+    return true;
+  } return false;
+}
+
+// ---------------------------------------------------------
+// DONT CHANGE ANYTHING BELOW THIS LINE!
+// ---------------------------------------------------------
+
+function addToOutput(text) {
+  var output = document.getElementById("output");
+  output.innerHTML = output.innerHTML += "<br>" + text;
+}
+
+document.getElementById("start").onclick = function() {
+  for(var i = 0; i < 100; i++) {
+    if(checkNumber(i)) {
+      addToOutput(i);
+    }
+  }
+}
